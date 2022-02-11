@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Guitar" representedClassName="Guitar" syncable="YES" codeGenerationType="class">
         <attribute name="boughtFrom" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="model" optional="YES" attributeType="String"/>
         <attribute name="numStrings" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="purchasedOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -9,8 +10,33 @@
         <attribute name="setupOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="yearMade" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="setups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="guitar" inverseEntity="Setup"/>
+    </entity>
+    <entity name="Setup" representedClassName="Setup" syncable="YES" codeGenerationType="class">
+        <attribute name="bassAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isMetric" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="neckRadius" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nutHeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stringGaugeHigh" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stringGaugeLow" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="trebleAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="guitar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Guitar" inverseName="setups" inverseEntity="Guitar"/>
+        <relationship name="tuning" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tuning" inverseName="setup" inverseEntity="Tuning"/>
+    </entity>
+    <entity name="Tuning" representedClassName="Tuning" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numStrings" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="setup" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="tuning" inverseEntity="Setup"/>
     </entity>
     <elements>
-        <element name="Guitar" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="Guitar" positionX="-63" positionY="-18" width="128" height="194"/>
+        <element name="Setup" positionX="-63" positionY="45" width="128" height="209"/>
+        <element name="Tuning" positionX="-45" positionY="72" width="128" height="104"/>
     </elements>
 </model>
