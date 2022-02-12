@@ -7,6 +7,8 @@
 
 import XCTest
 
+@testable import GuitarCloset
+
 class Tests_iOS: XCTestCase {
 
     override func setUpWithError() throws {

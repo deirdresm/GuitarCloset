@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384CCFFB27B733B5004BEAA9 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFA27B733B5004BEAA9 /* Guitar.swift */; };
+		384CCFFF27B7360D004BEAA9 /* GuitarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */; };
+		384CD00427B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
+		384CD00527B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
+		384CD00627B73751004BEAA9 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFA27B733B5004BEAA9 /* Guitar.swift */; };
+		384CD00C27B73E63004BEAA9 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
+		384CD00D27B73E6F004BEAA9 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
+		384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
+		384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
 		3856E5C727B1C427005E81ED /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5C627B1C427005E81ED /* Tests_iOS.swift */; };
 		3856E5C927B1C427005E81ED /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */; };
-		3856E5D327B1C427005E81ED /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5D227B1C427005E81ED /* Tests_macOS.swift */; };
-		3856E5D527B1C427005E81ED /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5D427B1C427005E81ED /* Tests_macOSLaunchTests.swift */; };
 		3856E5D627B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */; };
 		3856E5D727B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */; };
 		3856E5D827B1C427005E81ED /* GuitarClosetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */; };
 		3856E5D927B1C427005E81ED /* GuitarClosetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */; };
-		3856E5DA27B1C427005E81ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AE27B1C426005E81ED /* ContentView.swift */; };
-		3856E5DB27B1C427005E81ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AE27B1C426005E81ED /* ContentView.swift */; };
+		3856E5DA27B1C427005E81ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AE27B1C426005E81ED /* HomeView.swift */; };
+		3856E5DB27B1C427005E81ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AE27B1C426005E81ED /* HomeView.swift */; };
 		3856E5DC27B1C427005E81ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AF27B1C426005E81ED /* Persistence.swift */; };
 		3856E5DD27B1C427005E81ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AF27B1C426005E81ED /* Persistence.swift */; };
 		3856E5DE27B1C427005E81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3856E5B027B1C427005E81ED /* Assets.xcassets */; };
 		3856E5DF27B1C427005E81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3856E5B027B1C427005E81ED /* Assets.xcassets */; };
+		386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
+		386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
+		38EB86F827B7806400323024 /* GuitarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */; };
+		38EB86FD27B7842100323024 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
+		38EB86FE27B7842500323024 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
+		38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
+		38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
+		38EB870327B7A4DE00323024 /* GuitarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */; };
+		38EB870427B7A4DE00323024 /* GuitarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */; };
+		38EB870627B7A75C00323024 /* HomeViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870527B7A75C00323024 /* HomeViewVM.swift */; };
+		38EB870727B7A75C00323024 /* HomeViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870527B7A75C00323024 /* HomeViewVM.swift */; };
+		38EB870927B84F0E00323024 /* Setup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870827B84F0E00323024 /* Setup+Extension.swift */; };
+		38EB870A27B84F0E00323024 /* Setup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870827B84F0E00323024 /* Setup+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +62,15 @@
 
 /* Begin PBXFileReference section */
 		384C9BB827B3209D0075CBFE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		384CCFFA27B733B5004BEAA9 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarsView.swift; sourceTree = "<group>"; };
+		384CD00327B73743004BEAA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataTests.swift; sourceTree = "<group>"; };
+		384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extension.swift"; sourceTree = "<group>"; };
 		3856E5AC27B1C426005E81ED /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetApp.swift; sourceTree = "<group>"; };
-		3856E5AE27B1C426005E81ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3856E5AE27B1C426005E81ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3856E5AF27B1C426005E81ED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3856E5B027B1C427005E81ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3856E5B527B1C427005E81ED /* GuitarCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +80,11 @@
 		3856E5C627B1C427005E81ED /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		3856E5CE27B1C427005E81ED /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3856E5D227B1C427005E81ED /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		3856E5D427B1C427005E81ED /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		386DF5D827B865D3006F9248 /* Tuning+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuning+extension.swift"; sourceTree = "<group>"; };
+		38EB86FF27B78E1700323024 /* GuitarsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarsVM.swift; sourceTree = "<group>"; };
+		38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarHeaderView.swift; sourceTree = "<group>"; };
+		38EB870527B7A75C00323024 /* HomeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVM.swift; sourceTree = "<group>"; };
+		38EB870827B84F0E00323024 /* Setup+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setup+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +119,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384CCFF927B7339E004BEAA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				384CCFFA27B733B5004BEAA9 /* Guitar.swift */,
+				38EB870827B84F0E00323024 /* Setup+Extension.swift */,
+				386DF5D827B865D3006F9248 /* Tuning+extension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		384CCFFC27B735F2004BEAA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3856E5AE27B1C426005E81ED /* HomeView.swift */,
+				38EB870527B7A75C00323024 /* HomeViewVM.swift */,
+				384CD00327B73743004BEAA9 /* ContentView.swift */,
+				384CD00227B7371B004BEAA9 /* Guitars */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		384CD00227B7371B004BEAA9 /* Guitars */ = {
+			isa = PBXGroup;
+			children = (
+				384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */,
+				38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */,
+				38EB86FF27B78E1700323024 /* GuitarsVM.swift */,
+			);
+			path = Guitars;
+			sourceTree = "<group>";
+		};
+		384CD00927B73E44004BEAA9 /* TestsShared */ = {
+			isa = PBXGroup;
+			children = (
+				384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */,
+				384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */,
+			);
+			path = TestsShared;
+			sourceTree = "<group>";
+		};
 		3856E5A527B1C426005E81ED = {
 			isa = PBXGroup;
 			children = (
 				384C9BB827B3209D0075CBFE /* README.md */,
 				3856E5AA27B1C426005E81ED /* Shared */,
 				3856E5BC27B1C427005E81ED /* macOS */,
+				384CD00927B73E44004BEAA9 /* TestsShared */,
 				3856E5C527B1C427005E81ED /* Tests iOS */,
 				3856E5D127B1C427005E81ED /* Tests macOS */,
 				3856E5B627B1C427005E81ED /* Products */,
@@ -105,8 +175,10 @@
 		3856E5AA27B1C426005E81ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				384CCFFC27B735F2004BEAA9 /* Views */,
+				384CCFF927B7339E004BEAA9 /* Models */,
+				38EB86FC27B7809300323024 /* Extensions */,
 				3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */,
-				3856E5AE27B1C426005E81ED /* ContentView.swift */,
 				3856E5AF27B1C426005E81ED /* Persistence.swift */,
 				3856E5B027B1C427005E81ED /* Assets.xcassets */,
 				3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */,
@@ -145,10 +217,16 @@
 		3856E5D127B1C427005E81ED /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				3856E5D227B1C427005E81ED /* Tests_macOS.swift */,
-				3856E5D427B1C427005E81ED /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		38EB86FC27B7809300323024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,10 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D627B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
 				3856E5DC27B1C427005E81ED /* Persistence.swift in Sources */,
+				384CD00427B73743004BEAA9 /* ContentView.swift in Sources */,
+				38EB870627B7A75C00323024 /* HomeViewVM.swift in Sources */,
+				386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */,
+				384CCFFF27B7360D004BEAA9 /* GuitarsView.swift in Sources */,
+				384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
 				3856E5D827B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
-				3856E5DA27B1C427005E81ED /* ContentView.swift in Sources */,
+				38EB870327B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
+				38EB870927B84F0E00323024 /* Setup+Extension.swift in Sources */,
+				384CCFFB27B733B5004BEAA9 /* Guitar.swift in Sources */,
+				3856E5DA27B1C427005E81ED /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,10 +407,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D727B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
+				384CD00527B73743004BEAA9 /* ContentView.swift in Sources */,
 				3856E5DD27B1C427005E81ED /* Persistence.swift in Sources */,
+				38EB870727B7A75C00323024 /* HomeViewVM.swift in Sources */,
+				386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */,
+				384CD00627B73751004BEAA9 /* Guitar.swift in Sources */,
+				384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
 				3856E5D927B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
-				3856E5DB27B1C427005E81ED /* ContentView.swift in Sources */,
+				38EB870427B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
+				38EB870A27B84F0E00323024 /* Setup+Extension.swift in Sources */,
+				38EB86F827B7806400323024 /* GuitarsView.swift in Sources */,
+				3856E5DB27B1C427005E81ED /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +428,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3856E5C927B1C427005E81ED /* Tests_iOSLaunchTests.swift in Sources */,
+				38EB86FD27B7842100323024 /* BaseTestCase.swift in Sources */,
 				3856E5C727B1C427005E81ED /* Tests_iOS.swift in Sources */,
+				38EB86FE27B7842500323024 /* SampleDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3856E5D527B1C427005E81ED /* Tests_macOSLaunchTests.swift in Sources */,
-				3856E5D327B1C427005E81ED /* Tests_macOS.swift in Sources */,
+				384CD00C27B73E63004BEAA9 /* BaseTestCase.swift in Sources */,
+				384CD00D27B73E6F004BEAA9 /* SampleDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +510,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -467,8 +565,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;

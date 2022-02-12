@@ -7,6 +7,8 @@
 
 import XCTest
 
+@testable import GuitarCloset
+
 class Tests_iOSLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {

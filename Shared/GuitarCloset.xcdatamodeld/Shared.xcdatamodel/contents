@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Guitar" representedClassName="Guitar" syncable="YES" codeGenerationType="class">
+        <attribute name="bodyMaterial" optional="YES" attributeType="String"/>
         <attribute name="boughtFrom" optional="YES" attributeType="String"/>
+        <attribute name="bridge" optional="YES" attributeType="String"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="maker" optional="YES" attributeType="String"/>
         <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="neckMaterial" optional="YES" attributeType="String"/>
+        <attribute name="neckRadius" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="numStrings" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nutMaterial" optional="YES" attributeType="String"/>
+        <attribute name="pickups" optional="YES" attributeType="String"/>
         <attribute name="purchasedOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="scaleLength" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="serialNumber" optional="YES" attributeType="String"/>
+        <attribute name="series" optional="YES" attributeType="String"/>
         <attribute name="setupOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="whereMade" optional="YES" attributeType="String"/>
         <attribute name="yearMade" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="setups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="guitar" inverseEntity="Setup"/>
     </entity>
@@ -35,7 +47,7 @@
         <relationship name="setup" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="tuning" inverseEntity="Setup"/>
     </entity>
     <elements>
-        <element name="Guitar" positionX="-63" positionY="-18" width="128" height="194"/>
+        <element name="Guitar" positionX="-63" positionY="-18" width="128" height="374"/>
         <element name="Setup" positionX="-63" positionY="45" width="128" height="209"/>
         <element name="Tuning" positionX="-45" positionY="72" width="128" height="104"/>
     </elements>

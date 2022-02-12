@@ -8,18 +8,22 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+struct HomeView: View {
+	static let tag: String? = "Home"
 
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Guitar.timestamp, ascending: true)],
-        animation: .default)
-    private var guitars: FetchedResults<Guitar>
+	@StateObject var viewModel: ViewModel
+
+	@Environment(\.managedObjectContext) private var viewContext
+
+ 	init(persistence: Persistence) {
+		let viewModel = ViewModel(persistence: persistence)
+		_viewModel = StateObject(wrappedValue: viewModel)
+	}
 
     var body: some View {
         NavigationView {
             List {
-                ForEach(guitars) { guitar in
+				ForEach(viewModel.guitars) { guitar in
                     NavigationLink {
                         Text("Guitar at \(guitar.timestamp!, formatter: itemFormatter)")
                     } label: {
@@ -62,7 +66,7 @@ struct ContentView: View {
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
-            offsets.map { guitars[$0] }.forEach(viewContext.delete)
+			offsets.map { viewModel.guitars[$0] }.forEach(viewContext.delete)
 
             do {
                 try viewContext.save()
@@ -83,8 +87,10 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
+	static var persistence = Persistence.preview
+
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+		HomeView(persistence: persistence)
     }
 }
