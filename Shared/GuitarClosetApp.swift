@@ -24,7 +24,6 @@ struct GuitarClosetApp: App {
 		_persistence = StateObject(wrappedValue: persistence)
 	}
 
-
 	var body: some Scene {
 		WindowGroup {
 			ContentView()

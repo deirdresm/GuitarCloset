@@ -45,7 +45,7 @@ class Persistence: ObservableObject {
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
-        container.viewContext.automaticallyMergesChangesFromParent = true
+
 		container.loadPersistentStores { _, error in
 			if let error = error {
 				fatalError("Fatal error loading store: \(error.localizedDescription)")

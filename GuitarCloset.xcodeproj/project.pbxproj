@@ -12,8 +12,6 @@
 		384CD00427B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
 		384CD00527B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
 		384CD00627B73751004BEAA9 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFA27B733B5004BEAA9 /* Guitar.swift */; };
-		384CD00C27B73E63004BEAA9 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
-		384CD00D27B73E6F004BEAA9 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
 		384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
 		384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
 		3856E5C727B1C427005E81ED /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5C627B1C427005E81ED /* Tests_iOS.swift */; };
@@ -30,9 +28,16 @@
 		3856E5DF27B1C427005E81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3856E5B027B1C427005E81ED /* Assets.xcassets */; };
 		386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
 		386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
+		386DF5E227B88608006F9248 /* GuitarClosetTests_Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5E127B88608006F9248 /* GuitarClosetTests_Mac.swift */; };
+		386DF5EF27B88622006F9248 /* GuitarClosetTests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5EE27B88622006F9248 /* GuitarClosetTests_iOS.swift */; };
+		386DF5F527B8862A006F9248 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
+		386DF5F627B8862B006F9248 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
+		386DF5F727B886A7006F9248 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
+		386DF5F827B886A7006F9248 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
+		386DF5FA27B8889E006F9248 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5F927B8889E006F9248 /* Tests_macOS.swift */; };
+		386DF5FC27B888CD006F9248 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5FB27B888CD006F9248 /* Tests_iOS.swift */; };
+		38A78D0227B88A3E002CAD90 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A78D0127B88A3E002CAD90 /* Tests_macOS.swift */; };
 		38EB86F827B7806400323024 /* GuitarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */; };
-		38EB86FD27B7842100323024 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */; };
-		38EB86FE27B7842500323024 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
 		38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
 		38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
 		38EB870327B7A4DE00323024 /* GuitarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */; };
@@ -58,6 +63,20 @@
 			remoteGlobalIDString = 3856E5BA27B1C427005E81ED;
 			remoteInfo = "GuitarCloset (macOS)";
 		};
+		386DF5E327B88608006F9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3856E5A627B1C426005E81ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3856E5BA27B1C427005E81ED;
+			remoteInfo = "GuitarCloset (macOS)";
+		};
+		386DF5F027B88622006F9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3856E5A627B1C426005E81ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3856E5B427B1C427005E81ED;
+			remoteInfo = "GuitarCloset (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -76,11 +95,18 @@
 		3856E5B527B1C427005E81ED /* GuitarCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3856E5BB27B1C427005E81ED /* GuitarCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3856E5BD27B1C427005E81ED /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		3856E5C227B1C427005E81ED /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3856E5C227B1C427005E81ED /* UI Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3856E5C627B1C427005E81ED /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		3856E5CE27B1C427005E81ED /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3856E5CE27B1C427005E81ED /* UI Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386DF5D827B865D3006F9248 /* Tuning+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuning+extension.swift"; sourceTree = "<group>"; };
+		386DF5DF27B88608006F9248 /* Unit Tests Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		386DF5E127B88608006F9248 /* GuitarClosetTests_Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetTests_Mac.swift; sourceTree = "<group>"; };
+		386DF5EC27B88622006F9248 /* Unit Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		386DF5EE27B88622006F9248 /* GuitarClosetTests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetTests_iOS.swift; sourceTree = "<group>"; };
+		386DF5F927B8889E006F9248 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		386DF5FB27B888CD006F9248 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		38A78D0127B88A3E002CAD90 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		38EB86FF27B78E1700323024 /* GuitarsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarsVM.swift; sourceTree = "<group>"; };
 		38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarHeaderView.swift; sourceTree = "<group>"; };
 		38EB870527B7A75C00323024 /* HomeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVM.swift; sourceTree = "<group>"; };
@@ -110,6 +136,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3856E5CB27B1C427005E81ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5DC27B88608006F9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5E927B88622006F9248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,13 +190,13 @@
 			path = Guitars;
 			sourceTree = "<group>";
 		};
-		384CD00927B73E44004BEAA9 /* TestsShared */ = {
+		384CD00927B73E44004BEAA9 /* Tests Shared Unit */ = {
 			isa = PBXGroup;
 			children = (
 				384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */,
 				384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */,
 			);
-			path = TestsShared;
+			path = "Tests Shared Unit";
 			sourceTree = "<group>";
 		};
 		3856E5A527B1C426005E81ED = {
@@ -165,9 +205,11 @@
 				384C9BB827B3209D0075CBFE /* README.md */,
 				3856E5AA27B1C426005E81ED /* Shared */,
 				3856E5BC27B1C427005E81ED /* macOS */,
-				384CD00927B73E44004BEAA9 /* TestsShared */,
-				3856E5C527B1C427005E81ED /* Tests iOS */,
-				3856E5D127B1C427005E81ED /* Tests macOS */,
+				384CD00927B73E44004BEAA9 /* Tests Shared Unit */,
+				386DF5E027B88608006F9248 /* Tests Unit macOS */,
+				386DF5ED27B88622006F9248 /* Tests Unit iOS */,
+				3856E5C527B1C427005E81ED /* Tests UI iOS */,
+				3856E5D127B1C427005E81ED /* Tests UI macOS */,
 				3856E5B627B1C427005E81ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -191,8 +233,10 @@
 			children = (
 				3856E5B527B1C427005E81ED /* GuitarCloset.app */,
 				3856E5BB27B1C427005E81ED /* GuitarCloset.app */,
-				3856E5C227B1C427005E81ED /* Tests iOS.xctest */,
-				3856E5CE27B1C427005E81ED /* Tests macOS.xctest */,
+				3856E5C227B1C427005E81ED /* UI Tests iOS.xctest */,
+				3856E5CE27B1C427005E81ED /* UI Tests macOS.xctest */,
+				386DF5DF27B88608006F9248 /* Unit Tests Mac.xctest */,
+				386DF5EC27B88622006F9248 /* Unit Tests iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,20 +249,39 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		3856E5C527B1C427005E81ED /* Tests iOS */ = {
+		3856E5C527B1C427005E81ED /* Tests UI iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3856E5C627B1C427005E81ED /* Tests_iOS.swift */,
 				3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */,
 			);
-			path = "Tests iOS";
+			path = "Tests UI iOS";
 			sourceTree = "<group>";
 		};
-		3856E5D127B1C427005E81ED /* Tests macOS */ = {
+		3856E5D127B1C427005E81ED /* Tests UI macOS */ = {
 			isa = PBXGroup;
 			children = (
+				38A78D0127B88A3E002CAD90 /* Tests_macOS.swift */,
 			);
-			path = "Tests macOS";
+			path = "Tests UI macOS";
+			sourceTree = "<group>";
+		};
+		386DF5E027B88608006F9248 /* Tests Unit macOS */ = {
+			isa = PBXGroup;
+			children = (
+				386DF5E127B88608006F9248 /* GuitarClosetTests_Mac.swift */,
+				386DF5F927B8889E006F9248 /* Tests_macOS.swift */,
+			);
+			path = "Tests Unit macOS";
+			sourceTree = "<group>";
+		};
+		386DF5ED27B88622006F9248 /* Tests Unit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				386DF5EE27B88622006F9248 /* GuitarClosetTests_iOS.swift */,
+				386DF5FB27B888CD006F9248 /* Tests_iOS.swift */,
+			);
+			path = "Tests Unit iOS";
 			sourceTree = "<group>";
 		};
 		38EB86FC27B7809300323024 /* Extensions */ = {
@@ -266,9 +329,9 @@
 			productReference = 3856E5BB27B1C427005E81ED /* GuitarCloset.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3856E5C127B1C427005E81ED /* Tests iOS */ = {
+		3856E5C127B1C427005E81ED /* UI Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3856E5E827B1C427005E81ED /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 3856E5E827B1C427005E81ED /* Build configuration list for PBXNativeTarget "UI Tests iOS" */;
 			buildPhases = (
 				3856E5BE27B1C427005E81ED /* Sources */,
 				3856E5BF27B1C427005E81ED /* Frameworks */,
@@ -279,14 +342,14 @@
 			dependencies = (
 				3856E5C427B1C427005E81ED /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
+			name = "UI Tests iOS";
 			productName = "Tests iOS";
-			productReference = 3856E5C227B1C427005E81ED /* Tests iOS.xctest */;
+			productReference = 3856E5C227B1C427005E81ED /* UI Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		3856E5CD27B1C427005E81ED /* Tests macOS */ = {
+		3856E5CD27B1C427005E81ED /* UI Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3856E5EB27B1C427005E81ED /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 3856E5EB27B1C427005E81ED /* Build configuration list for PBXNativeTarget "UI Tests macOS" */;
 			buildPhases = (
 				3856E5CA27B1C427005E81ED /* Sources */,
 				3856E5CB27B1C427005E81ED /* Frameworks */,
@@ -297,10 +360,46 @@
 			dependencies = (
 				3856E5D027B1C427005E81ED /* PBXTargetDependency */,
 			);
-			name = "Tests macOS";
+			name = "UI Tests macOS";
 			productName = "Tests macOS";
-			productReference = 3856E5CE27B1C427005E81ED /* Tests macOS.xctest */;
+			productReference = 3856E5CE27B1C427005E81ED /* UI Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		386DF5DE27B88608006F9248 /* Unit Tests Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386DF5E527B88608006F9248 /* Build configuration list for PBXNativeTarget "Unit Tests Mac" */;
+			buildPhases = (
+				386DF5DB27B88608006F9248 /* Sources */,
+				386DF5DC27B88608006F9248 /* Frameworks */,
+				386DF5DD27B88608006F9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386DF5E427B88608006F9248 /* PBXTargetDependency */,
+			);
+			name = "Unit Tests Mac";
+			productName = "GuitarClosetTests Mac";
+			productReference = 386DF5DF27B88608006F9248 /* Unit Tests Mac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		386DF5EB27B88622006F9248 /* Unit Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386DF5F227B88622006F9248 /* Build configuration list for PBXNativeTarget "Unit Tests iOS" */;
+			buildPhases = (
+				386DF5E827B88622006F9248 /* Sources */,
+				386DF5E927B88622006F9248 /* Frameworks */,
+				386DF5EA27B88622006F9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386DF5F127B88622006F9248 /* PBXTargetDependency */,
+			);
+			name = "Unit Tests iOS";
+			productName = "GuitarClosetTests iOS";
+			productReference = 386DF5EC27B88622006F9248 /* Unit Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -324,7 +423,16 @@
 					};
 					3856E5CD27B1C427005E81ED = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = 3856E5BA27B1C427005E81ED;
+					};
+					386DF5DE27B88608006F9248 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3856E5BA27B1C427005E81ED;
+					};
+					386DF5EB27B88622006F9248 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3856E5B427B1C427005E81ED;
 					};
 				};
 			};
@@ -342,9 +450,11 @@
 			projectRoot = "";
 			targets = (
 				3856E5B427B1C427005E81ED /* GuitarCloset (iOS) */,
+				386DF5EB27B88622006F9248 /* Unit Tests iOS */,
+				3856E5C127B1C427005E81ED /* UI Tests iOS */,
 				3856E5BA27B1C427005E81ED /* GuitarCloset (macOS) */,
-				3856E5C127B1C427005E81ED /* Tests iOS */,
-				3856E5CD27B1C427005E81ED /* Tests macOS */,
+				386DF5DE27B88608006F9248 /* Unit Tests Mac */,
+				3856E5CD27B1C427005E81ED /* UI Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +484,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3856E5CC27B1C427005E81ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5DD27B88608006F9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5EA27B88622006F9248 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,9 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3856E5C927B1C427005E81ED /* Tests_iOSLaunchTests.swift in Sources */,
-				38EB86FD27B7842100323024 /* BaseTestCase.swift in Sources */,
 				3856E5C727B1C427005E81ED /* Tests_iOS.swift in Sources */,
-				38EB86FE27B7842500323024 /* SampleDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,8 +560,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384CD00C27B73E63004BEAA9 /* BaseTestCase.swift in Sources */,
-				384CD00D27B73E6F004BEAA9 /* SampleDataTests.swift in Sources */,
+				38A78D0227B88A3E002CAD90 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5DB27B88608006F9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386DF5F527B8862A006F9248 /* BaseTestCase.swift in Sources */,
+				386DF5FA27B8889E006F9248 /* Tests_macOS.swift in Sources */,
+				386DF5F727B886A7006F9248 /* SampleDataTests.swift in Sources */,
+				386DF5E227B88608006F9248 /* GuitarClosetTests_Mac.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DF5E827B88622006F9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386DF5F627B8862B006F9248 /* BaseTestCase.swift in Sources */,
+				386DF5F827B886A7006F9248 /* SampleDataTests.swift in Sources */,
+				386DF5EF27B88622006F9248 /* GuitarClosetTests_iOS.swift in Sources */,
+				386DF5FC27B888CD006F9248 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +598,16 @@
 			isa = PBXTargetDependency;
 			target = 3856E5BA27B1C427005E81ED /* GuitarCloset (macOS) */;
 			targetProxy = 3856E5CF27B1C427005E81ED /* PBXContainerItemProxy */;
+		};
+		386DF5E427B88608006F9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3856E5BA27B1C427005E81ED /* GuitarCloset (macOS) */;
+			targetProxy = 386DF5E327B88608006F9248 /* PBXContainerItemProxy */;
+		};
+		386DF5F127B88622006F9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3856E5B427B1C427005E81ED /* GuitarCloset (iOS) */;
+			targetProxy = 386DF5F027B88622006F9248 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -738,16 +891,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V3N8JZ2T92;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "GuitarCloset (macOS)";
 			};
@@ -757,10 +917,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V3N8JZ2T92;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-macOS";
@@ -769,6 +935,85 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "GuitarCloset (macOS)";
+			};
+			name = Release;
+		};
+		386DF5E627B88608006F9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.GuitarClosetTests-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarCloset.app/Contents/MacOS/GuitarCloset";
+			};
+			name = Debug;
+		};
+		386DF5E727B88608006F9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.GuitarClosetTests-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarCloset.app/Contents/MacOS/GuitarCloset";
+			};
+			name = Release;
+		};
+		386DF5F327B88622006F9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.GuitarClosetTests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarCloset.app/GuitarCloset";
+			};
+			name = Debug;
+		};
+		386DF5F427B88622006F9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.GuitarClosetTests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarCloset.app/GuitarCloset";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -802,7 +1047,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3856E5E827B1C427005E81ED /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		3856E5E827B1C427005E81ED /* Build configuration list for PBXNativeTarget "UI Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3856E5E927B1C427005E81ED /* Debug */,
@@ -811,11 +1056,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3856E5EB27B1C427005E81ED /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		3856E5EB27B1C427005E81ED /* Build configuration list for PBXNativeTarget "UI Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3856E5EC27B1C427005E81ED /* Debug */,
 				3856E5ED27B1C427005E81ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386DF5E527B88608006F9248 /* Build configuration list for PBXNativeTarget "Unit Tests Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386DF5E627B88608006F9248 /* Debug */,
+				386DF5E727B88608006F9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386DF5F227B88622006F9248 /* Build configuration list for PBXNativeTarget "Unit Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386DF5F327B88622006F9248 /* Debug */,
+				386DF5F427B88622006F9248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
