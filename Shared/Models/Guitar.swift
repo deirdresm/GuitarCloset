@@ -17,7 +17,7 @@ extension Guitar {
 	}
 
 	var guitarMaker: String {
-		maker  ?? NSLocalizedString("New Maker", comment: "Enter guitar maker")
+		maker?.name  ?? NSLocalizedString("New Maker", comment: "Enter guitar maker")
 	}
 
 	var guitarColor: String {
@@ -64,7 +64,7 @@ extension Guitar {
 		let guitar = Guitar(context: viewContext)
 		guitar.name = "Stratocaster"
 		guitar.bodyMaterial = "Alder"
-		guitar.maker = "Fender"
+		guitar.maker = Maker.sampleMaker
 		guitar.series = "Player Plus Top"
 		guitar.scaleLength = 648 // 25.5" in mm
 		guitar.neckRadius = 241 // 9.5" in mm

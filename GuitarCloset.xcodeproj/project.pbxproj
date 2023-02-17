@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380E01AF27F56F9B00E30DA6 /* Liquid in Frameworks */ = {isa = PBXBuildFile; productRef = 380E01AE27F56F9B00E30DA6 /* Liquid */; };
 		384CCFFB27B733B5004BEAA9 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFA27B733B5004BEAA9 /* Guitar.swift */; };
 		384CCFFF27B7360D004BEAA9 /* GuitarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */; };
 		384CD00427B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
@@ -36,7 +37,21 @@
 		386DF5F827B886A7006F9248 /* SampleDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */; };
 		386DF5FA27B8889E006F9248 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5F927B8889E006F9248 /* Tests_macOS.swift */; };
 		386DF5FC27B888CD006F9248 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5FB27B888CD006F9248 /* Tests_iOS.swift */; };
+		38702DE2299F5D9600E069F2 /* MakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38702DE1299F5D9600E069F2 /* MakersView.swift */; };
+		38702DE4299F5DBB00E069F2 /* MakersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38702DE3299F5DBB00E069F2 /* MakersVM.swift */; };
+		38756C962984B7C200464419 /* PedalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C952984B7C200464419 /* PedalGridView.swift */; };
+		38756C972984B7C200464419 /* PedalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C952984B7C200464419 /* PedalGridView.swift */; };
+		38756C9929860E3800464419 /* Maker+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9829860E3800464419 /* Maker+Extension.swift */; };
+		38756C9A29860E3800464419 /* Maker+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9829860E3800464419 /* Maker+Extension.swift */; };
+		38756C9D298640B000464419 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9C298640B000464419 /* PedalsView.swift */; };
+		38756C9E298640B000464419 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9C298640B000464419 /* PedalsView.swift */; };
+		38756CA0298640EB00464419 /* PedalsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9F298640EB00464419 /* PedalsVM.swift */; };
+		38756CA1298640EB00464419 /* PedalsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756C9F298640EB00464419 /* PedalsVM.swift */; };
 		38A78D0227B88A3E002CAD90 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A78D0127B88A3E002CAD90 /* Tests_macOS.swift */; };
+		38D095A7298746AA00BE2A79 /* Maker+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D095A6298746AA00BE2A79 /* Maker+Preview.swift */; };
+		38D095A8298746AA00BE2A79 /* Maker+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D095A6298746AA00BE2A79 /* Maker+Preview.swift */; };
+		38D095AA29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D095A929875FBC00BE2A79 /* Guitar+Preview.swift */; };
+		38D095AB29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D095A929875FBC00BE2A79 /* Guitar+Preview.swift */; };
 		38EB86F827B7806400323024 /* GuitarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */; };
 		38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
 		38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB86FF27B78E1700323024 /* GuitarsVM.swift */; };
@@ -106,7 +121,17 @@
 		386DF5EE27B88622006F9248 /* GuitarClosetTests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetTests_iOS.swift; sourceTree = "<group>"; };
 		386DF5F927B8889E006F9248 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		386DF5FB27B888CD006F9248 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		38702DE1299F5D9600E069F2 /* MakersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersView.swift; sourceTree = "<group>"; };
+		38702DE3299F5DBB00E069F2 /* MakersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersVM.swift; sourceTree = "<group>"; };
+		38702DE5299F6B7400E069F2 /* GuitarCloset (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GuitarCloset (iOS).entitlements"; sourceTree = "<group>"; };
+		38702DE6299F6B7C00E069F2 /* GuitarCloset--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GuitarCloset--iOS--Info.plist"; sourceTree = "<group>"; };
+		38756C952984B7C200464419 /* PedalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalGridView.swift; sourceTree = "<group>"; };
+		38756C9829860E3800464419 /* Maker+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maker+Extension.swift"; sourceTree = "<group>"; };
+		38756C9C298640B000464419 /* PedalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalsView.swift; sourceTree = "<group>"; };
+		38756C9F298640EB00464419 /* PedalsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalsVM.swift; sourceTree = "<group>"; };
 		38A78D0127B88A3E002CAD90 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		38D095A6298746AA00BE2A79 /* Maker+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maker+Preview.swift"; sourceTree = "<group>"; };
+		38D095A929875FBC00BE2A79 /* Guitar+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Guitar+Preview.swift"; sourceTree = "<group>"; };
 		38EB86FF27B78E1700323024 /* GuitarsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarsVM.swift; sourceTree = "<group>"; };
 		38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarHeaderView.swift; sourceTree = "<group>"; };
 		38EB870527B7A75C00323024 /* HomeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVM.swift; sourceTree = "<group>"; };
@@ -118,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380E01AF27F56F9B00E30DA6 /* Liquid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				384CCFFA27B733B5004BEAA9 /* Guitar.swift */,
+				38756C9829860E3800464419 /* Maker+Extension.swift */,
 				38EB870827B84F0E00323024 /* Setup+Extension.swift */,
 				386DF5D827B865D3006F9248 /* Tuning+extension.swift */,
 			);
@@ -176,6 +203,8 @@
 				38EB870527B7A75C00323024 /* HomeViewVM.swift */,
 				384CD00327B73743004BEAA9 /* ContentView.swift */,
 				384CD00227B7371B004BEAA9 /* Guitars */,
+				38756C9B2986406D00464419 /* Pedals */,
+				38702DE0299F5D4400E069F2 /* Makers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,8 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				384CCFFE27B7360D004BEAA9 /* GuitarsView.swift */,
-				38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */,
 				38EB86FF27B78E1700323024 /* GuitarsVM.swift */,
+				38EB870227B7A4DE00323024 /* GuitarHeaderView.swift */,
 			);
 			path = Guitars;
 			sourceTree = "<group>";
@@ -202,6 +231,8 @@
 		3856E5A527B1C426005E81ED = {
 			isa = PBXGroup;
 			children = (
+				38702DE6299F6B7C00E069F2 /* GuitarCloset--iOS--Info.plist */,
+				38702DE5299F6B7400E069F2 /* GuitarCloset (iOS).entitlements */,
 				384C9BB827B3209D0075CBFE /* README.md */,
 				3856E5AA27B1C426005E81ED /* Shared */,
 				3856E5BC27B1C427005E81ED /* macOS */,
@@ -218,12 +249,14 @@
 			isa = PBXGroup;
 			children = (
 				384CCFFC27B735F2004BEAA9 /* Views */,
+				385D10D027C20499009DA36F /* Setups */,
 				384CCFF927B7339E004BEAA9 /* Models */,
 				38EB86FC27B7809300323024 /* Extensions */,
 				3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */,
 				3856E5AF27B1C426005E81ED /* Persistence.swift */,
 				3856E5B027B1C427005E81ED /* Assets.xcassets */,
 				3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */,
+				38D095A52987468300BE2A79 /* Preview Content */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -266,6 +299,13 @@
 			path = "Tests UI macOS";
 			sourceTree = "<group>";
 		};
+		385D10D027C20499009DA36F /* Setups */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setups;
+			sourceTree = "<group>";
+		};
 		386DF5E027B88608006F9248 /* Tests Unit macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +322,34 @@
 				386DF5FB27B888CD006F9248 /* Tests_iOS.swift */,
 			);
 			path = "Tests Unit iOS";
+			sourceTree = "<group>";
+		};
+		38702DE0299F5D4400E069F2 /* Makers */ = {
+			isa = PBXGroup;
+			children = (
+				38702DE1299F5D9600E069F2 /* MakersView.swift */,
+				38702DE3299F5DBB00E069F2 /* MakersVM.swift */,
+			);
+			path = Makers;
+			sourceTree = "<group>";
+		};
+		38756C9B2986406D00464419 /* Pedals */ = {
+			isa = PBXGroup;
+			children = (
+				38756C9C298640B000464419 /* PedalsView.swift */,
+				38756C9F298640EB00464419 /* PedalsVM.swift */,
+				38756C952984B7C200464419 /* PedalGridView.swift */,
+			);
+			path = Pedals;
+			sourceTree = "<group>";
+		};
+		38D095A52987468300BE2A79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38D095A6298746AA00BE2A79 /* Maker+Preview.swift */,
+				38D095A929875FBC00BE2A79 /* Guitar+Preview.swift */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		38EB86FC27B7809300323024 /* Extensions */ = {
@@ -308,6 +376,9 @@
 			dependencies = (
 			);
 			name = "GuitarCloset (iOS)";
+			packageProductDependencies = (
+				380E01AE27F56F9B00E30DA6 /* Liquid */,
+			);
 			productName = "GuitarCloset (iOS)";
 			productReference = 3856E5B527B1C427005E81ED /* GuitarCloset.app */;
 			productType = "com.apple.product-type.application";
@@ -445,14 +516,17 @@
 				Base,
 			);
 			mainGroup = 3856E5A527B1C426005E81ED;
+			packageReferences = (
+				380E01AD27F56F9B00E30DA6 /* XCRemoteSwiftPackageReference "liquid" */,
+			);
 			productRefGroup = 3856E5B627B1C427005E81ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3856E5BA27B1C427005E81ED /* GuitarCloset (macOS) */,
 				3856E5B427B1C427005E81ED /* GuitarCloset (iOS) */,
 				386DF5EB27B88622006F9248 /* Unit Tests iOS */,
 				3856E5C127B1C427005E81ED /* UI Tests iOS */,
-				3856E5BA27B1C427005E81ED /* GuitarCloset (macOS) */,
 				386DF5DE27B88608006F9248 /* Unit Tests Mac */,
 				3856E5CD27B1C427005E81ED /* UI Tests macOS */,
 			);
@@ -511,18 +585,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38756C9929860E3800464419 /* Maker+Extension.swift in Sources */,
+				38756CA0298640EB00464419 /* PedalsVM.swift in Sources */,
 				38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D627B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
 				3856E5DC27B1C427005E81ED /* Persistence.swift in Sources */,
 				384CD00427B73743004BEAA9 /* ContentView.swift in Sources */,
+				38756C9D298640B000464419 /* PedalsView.swift in Sources */,
 				38EB870627B7A75C00323024 /* HomeViewVM.swift in Sources */,
 				386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */,
 				384CCFFF27B7360D004BEAA9 /* GuitarsView.swift in Sources */,
 				384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
+				38756C962984B7C200464419 /* PedalGridView.swift in Sources */,
 				3856E5D827B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
+				38702DE2299F5D9600E069F2 /* MakersView.swift in Sources */,
+				38702DE4299F5DBB00E069F2 /* MakersVM.swift in Sources */,
+				38D095A7298746AA00BE2A79 /* Maker+Preview.swift in Sources */,
 				38EB870327B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
 				38EB870927B84F0E00323024 /* Setup+Extension.swift in Sources */,
 				384CCFFB27B733B5004BEAA9 /* Guitar.swift in Sources */,
+				38D095AA29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */,
 				3856E5DA27B1C427005E81ED /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,18 +613,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38756C9A29860E3800464419 /* Maker+Extension.swift in Sources */,
+				38756CA1298640EB00464419 /* PedalsVM.swift in Sources */,
 				38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D727B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
 				384CD00527B73743004BEAA9 /* ContentView.swift in Sources */,
 				3856E5DD27B1C427005E81ED /* Persistence.swift in Sources */,
+				38756C9E298640B000464419 /* PedalsView.swift in Sources */,
 				38EB870727B7A75C00323024 /* HomeViewVM.swift in Sources */,
 				386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */,
 				384CD00627B73751004BEAA9 /* Guitar.swift in Sources */,
 				384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
+				38756C972984B7C200464419 /* PedalGridView.swift in Sources */,
 				3856E5D927B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
+				38D095A8298746AA00BE2A79 /* Maker+Preview.swift in Sources */,
 				38EB870427B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
 				38EB870A27B84F0E00323024 /* Setup+Extension.swift in Sources */,
 				38EB86F827B7806400323024 /* GuitarsView.swift in Sources */,
+				38D095AB29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */,
 				3856E5DB27B1C427005E81ED /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,8 +751,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -718,8 +806,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -732,18 +820,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GuitarCloset (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V3N8JZ2T92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GuitarCloset--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -763,18 +853,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GuitarCloset (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V3N8JZ2T92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GuitarCloset--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,7 +900,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.GuitarCloset;
 				PRODUCT_NAME = GuitarCloset;
@@ -836,7 +928,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.GuitarCloset;
 				PRODUCT_NAME = GuitarCloset;
@@ -1084,6 +1176,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		380E01AD27F56F9B00E30DA6 /* XCRemoteSwiftPackageReference "liquid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/liquid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		380E01AE27F56F9B00E30DA6 /* Liquid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380E01AD27F56F9B00E30DA6 /* XCRemoteSwiftPackageReference "liquid" */;
+			productName = Liquid;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */ = {

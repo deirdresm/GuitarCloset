@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EffectCategory" representedClassName="EffectCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="stage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="pedals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pedal" inverseName="category" inverseEntity="Pedal"/>
+    </entity>
     <entity name="Guitar" representedClassName="Guitar" syncable="YES" codeGenerationType="class">
         <attribute name="bodyMaterial" optional="YES" attributeType="String"/>
         <attribute name="boughtFrom" optional="YES" attributeType="String"/>
         <attribute name="bridge" optional="YES" attributeType="String"/>
         <attribute name="color" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="maker" optional="YES" attributeType="String"/>
         <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="modifiedOn" optional="YES" attributeType="Date" derived="YES" derivationExpression="now()" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="neckMaterial" optional="YES" attributeType="String"/>
         <attribute name="neckRadius" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -23,7 +29,43 @@
         <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="whereMade" optional="YES" attributeType="String"/>
         <attribute name="yearMade" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="maker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Maker" inverseName="guitars" inverseEntity="Maker"/>
         <relationship name="setups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="guitar" inverseEntity="Setup"/>
+    </entity>
+    <entity name="Maker" representedClassName="Maker" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="website" optional="YES" attributeType="URI"/>
+        <relationship name="guitars" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Guitar" inverseName="maker" inverseEntity="Guitar"/>
+        <relationship name="pedals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pedal" inverseName="maker" inverseEntity="Pedal"/>
+    </entity>
+    <entity name="Pedal" representedClassName="Pedal" syncable="YES" codeGenerationType="class">
+        <attribute name="centerPos" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="depth" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="effectSubtype" optional="YES" attributeType="String"/>
+        <attribute name="effectType" optional="YES" attributeType="String"/>
+        <attribute name="hasStereoIn" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hasStereoOut" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isStereo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mAmps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifiedOn" optional="YES" attributeType="Date" derived="YES" derivationExpression="now()" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="numFootswitches" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ohmsIn" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ohmsOut" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="purchasedOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="purchasePrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="serialNum" optional="YES" attributeType="String"/>
+        <attribute name="volts" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="width" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="boughtFrom" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vendor" inverseName="pedals" inverseEntity="Vendor"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EffectCategory" inverseName="pedals" inverseEntity="EffectCategory"/>
+        <relationship name="maker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Maker" inverseName="pedals" inverseEntity="Maker"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
+        <attribute name="units" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Setup" representedClassName="Setup" syncable="YES" codeGenerationType="class">
         <attribute name="bassAction" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -46,9 +88,10 @@
         <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="setup" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="tuning" inverseEntity="Setup"/>
     </entity>
-    <elements>
-        <element name="Guitar" positionX="-63" positionY="-18" width="128" height="374"/>
-        <element name="Setup" positionX="-63" positionY="45" width="128" height="209"/>
-        <element name="Tuning" positionX="-45" positionY="72" width="128" height="104"/>
-    </elements>
+    <entity name="Vendor" representedClassName="Vendor" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="website" optional="YES" attributeType="URI"/>
+        <relationship name="pedals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pedal" inverseName="boughtFrom" inverseEntity="Pedal"/>
+    </entity>
 </model>

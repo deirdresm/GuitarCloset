@@ -43,7 +43,7 @@ class Persistence: ObservableObject {
 		container = NSPersistentCloudKitContainer(name: "net.deirdre.GuitarCloset", managedObjectModel: Self.model)
 
         if inMemory {
-            container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
+            container.persistentStoreDescriptions.first!.url = URL(filePath: "/dev/null")
         }
 
 		container.loadPersistentStores { _, error in
@@ -87,6 +87,12 @@ class Persistence: ObservableObject {
 			guitar.model = "Sample Model \(guitarCounter)"
 			guitar.purchasedOn = Date()
 		}
+
+		for pedalCounter in 1...5 {
+			let pedal = Pedal(context: viewContext)
+			pedal.name = "Pedal \(pedalCounter)"
+			pedal.purchasedOn = Date()
+		}
 		try viewContext.save()
 	}
 
@@ -110,11 +116,14 @@ class Persistence: ObservableObject {
 
 	/// Deletes all existing data.
 	/// Note: only used in testing.
-
-	func deleteAll() {
+	private func deleteAll() {
 		let guitarFetchRequest: NSFetchRequest<NSFetchRequestResult> = Guitar.fetchRequest()
 		let guitarBatchDeleteRequest = NSBatchDeleteRequest(fetchRequest: guitarFetchRequest)
 		_ = try? container.viewContext.execute(guitarBatchDeleteRequest)
+
+		let pedalFetchRequest: NSFetchRequest<NSFetchRequestResult> = Pedal.fetchRequest()
+		let pedalBatchDeleteRequest = NSBatchDeleteRequest(fetchRequest: pedalFetchRequest)
+		_ = try? container.viewContext.execute(pedalBatchDeleteRequest)
 
 		container.viewContext.reset() // reset the container so the view refreshes to the new context container
 	}

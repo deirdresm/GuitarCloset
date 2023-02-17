@@ -25,7 +25,7 @@ struct HomeView: View {
             List {
 				ForEach(viewModel.guitars) { guitar in
                     NavigationLink {
-                        Text("Guitar at \(guitar.timestamp!, formatter: itemFormatter)")
+                        Text("\(guitar.guitarName)")
                     } label: {
                         Text(guitar.timestamp!, formatter: itemFormatter)
                     }
