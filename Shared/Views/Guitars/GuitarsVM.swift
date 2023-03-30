@@ -70,7 +70,7 @@ extension GuitarsView {
 		}
 
 #if DEBUG
-		func deleteAll() {
+		public func deleteAll() {
 			persistence.deleteAll()
 		}
 #endif

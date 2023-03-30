@@ -70,7 +70,7 @@ extension PedalsView {
 		}
 
 #if DEBUG
-		func deleteAll() {
+		public func deleteAll() {
 			persistence.deleteAll()
 		}
 #endif

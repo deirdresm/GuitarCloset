@@ -116,7 +116,7 @@ class Persistence: ObservableObject {
 
 	/// Deletes all existing data.
 	/// Note: only used in testing.
-	private func deleteAll() {
+	func deleteAll() {
 		let guitarFetchRequest: NSFetchRequest<NSFetchRequestResult> = Guitar.fetchRequest()
 		let guitarBatchDeleteRequest = NSBatchDeleteRequest(fetchRequest: guitarFetchRequest)
 		_ = try? container.viewContext.execute(guitarBatchDeleteRequest)

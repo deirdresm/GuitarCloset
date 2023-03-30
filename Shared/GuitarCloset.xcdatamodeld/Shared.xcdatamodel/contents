@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="EffectCategory" representedClassName="EffectCategory" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
@@ -30,7 +30,16 @@
         <attribute name="whereMade" optional="YES" attributeType="String"/>
         <attribute name="yearMade" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="maker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Maker" inverseName="guitars" inverseEntity="Maker"/>
+        <relationship name="projects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Project" inverseName="guitar" inverseEntity="Project"/>
         <relationship name="setups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Setup" inverseName="guitar" inverseEntity="Setup"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Project" inverseName="items" inverseEntity="Project"/>
     </entity>
     <entity name="Maker" representedClassName="Maker" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
@@ -63,6 +72,18 @@
         <relationship name="boughtFrom" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vendor" inverseName="pedals" inverseEntity="Vendor"/>
         <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EffectCategory" inverseName="pedals" inverseEntity="EffectCategory"/>
         <relationship name="maker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Maker" inverseName="pedals" inverseEntity="Maker"/>
+        <relationship name="project" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Project" inverseName="pedal" inverseEntity="Project"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" syncable="YES" codeGenerationType="class">
+        <attribute name="closed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="reminderTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="guitar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Guitar" inverseName="projects" inverseEntity="Guitar"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Item" inverseName="project" inverseEntity="Item"/>
+        <relationship name="pedal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pedal" inverseName="project" inverseEntity="Pedal"/>
     </entity>
     <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
         <attribute name="units" optional="YES" attributeType="String"/>

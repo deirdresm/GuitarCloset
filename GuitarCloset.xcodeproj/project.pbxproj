@@ -13,8 +13,6 @@
 		384CD00427B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
 		384CD00527B73743004BEAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00327B73743004BEAA9 /* ContentView.swift */; };
 		384CD00627B73751004BEAA9 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CCFFA27B733B5004BEAA9 /* Guitar.swift */; };
-		384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
-		384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */; };
 		3856E5C727B1C427005E81ED /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5C627B1C427005E81ED /* Tests_iOS.swift */; };
 		3856E5C927B1C427005E81ED /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */; };
 		3856E5D627B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AB27B1C426005E81ED /* GuitarCloset.xcdatamodeld */; };
@@ -27,6 +25,36 @@
 		3856E5DD27B1C427005E81ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3856E5AF27B1C426005E81ED /* Persistence.swift */; };
 		3856E5DE27B1C427005E81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3856E5B027B1C427005E81ED /* Assets.xcassets */; };
 		3856E5DF27B1C427005E81ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3856E5B027B1C427005E81ED /* Assets.xcassets */; };
+		3864B98F29D5720200577CCB /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97C29D5720200577CCB /* ProjectHeaderView.swift */; };
+		3864B99029D5720200577CCB /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97C29D5720200577CCB /* ProjectHeaderView.swift */; };
+		3864B99129D5720200577CCB /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98E29D5720200577CCB /* EditItemView.swift */; };
+		3864B99229D5720200577CCB /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98E29D5720200577CCB /* EditItemView.swift */; };
+		3864B99329D5720200577CCB /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98C29D5720200577CCB /* EditProjectView.swift */; };
+		3864B99429D5720200577CCB /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98C29D5720200577CCB /* EditProjectView.swift */; };
+		3864B99529D5720200577CCB /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97F29D5720200577CCB /* ProjectsView.swift */; };
+		3864B99629D5720200577CCB /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97F29D5720200577CCB /* ProjectsView.swift */; };
+		3864B99729D5720200577CCB /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97E29D5720200577CCB /* ItemRowView.swift */; };
+		3864B99829D5720200577CCB /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97E29D5720200577CCB /* ItemRowView.swift */; };
+		3864B99929D5720200577CCB /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97A29D5720200577CCB /* ItemListView.swift */; };
+		3864B99A29D5720200577CCB /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97A29D5720200577CCB /* ItemListView.swift */; };
+		3864B99B29D5720200577CCB /* EditProjectView+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98B29D5720200577CCB /* EditProjectView+iOS.swift */; };
+		3864B99D29D5720200577CCB /* ProjectsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97D29D5720200577CCB /* ProjectsVM.swift */; };
+		3864B99E29D5720200577CCB /* ProjectsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97D29D5720200577CCB /* ProjectsVM.swift */; };
+		3864B9A129D5720200577CCB /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97B29D5720200577CCB /* SelectSomethingView.swift */; };
+		3864B9A229D5720200577CCB /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B97B29D5720200577CCB /* SelectSomethingView.swift */; };
+		3864B9A329D5724C00577CCB /* EditProjectView+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B98129D5720200577CCB /* EditProjectView+macOS.swift */; };
+		3864B9A829D572B700577CCB /* Sequence+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A729D572B700577CCB /* Sequence+Sorting.swift */; };
+		3864B9A929D572B700577CCB /* Sequence+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A729D572B700577CCB /* Sequence+Sorting.swift */; };
+		3864B9AA29D572B700577CCB /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A429D572B700577CCB /* Optional+Extension.swift */; };
+		3864B9AB29D572B700577CCB /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A429D572B700577CCB /* Optional+Extension.swift */; };
+		3864B9AC29D572B700577CCB /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A629D572B700577CCB /* Bundle-Decodable.swift */; };
+		3864B9AD29D572B700577CCB /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A629D572B700577CCB /* Bundle-Decodable.swift */; };
+		3864B9AE29D572B700577CCB /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A529D572B700577CCB /* Binding+Extension.swift */; };
+		3864B9AF29D572B700577CCB /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9A529D572B700577CCB /* Binding+Extension.swift */; };
+		3864B9B229D5743F00577CCB /* Item+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9B029D5743F00577CCB /* Item+Extension.swift */; };
+		3864B9B329D5743F00577CCB /* Item+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9B029D5743F00577CCB /* Item+Extension.swift */; };
+		3864B9B429D5743F00577CCB /* Project+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9B129D5743F00577CCB /* Project+Extension.swift */; };
+		3864B9B529D5743F00577CCB /* Project+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864B9B129D5743F00577CCB /* Project+Extension.swift */; };
 		386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
 		386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5D827B865D3006F9248 /* Tuning+extension.swift */; };
 		386DF5E227B88608006F9248 /* GuitarClosetTests_Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386DF5E127B88608006F9248 /* GuitarClosetTests_Mac.swift */; };
@@ -101,7 +129,6 @@
 		384CD00327B73743004BEAA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		384CD00727B73E0E004BEAA9 /* SampleDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataTests.swift; sourceTree = "<group>"; };
 		384CD00A27B73E63004BEAA9 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
-		384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extension.swift"; sourceTree = "<group>"; };
 		3856E5AC27B1C426005E81ED /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		3856E5AD27B1C426005E81ED /* GuitarClosetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetApp.swift; sourceTree = "<group>"; };
 		3856E5AE27B1C426005E81ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -114,6 +141,31 @@
 		3856E5C627B1C427005E81ED /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		3856E5C827B1C427005E81ED /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		3856E5CE27B1C427005E81ED /* UI Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3864B97A29D5720200577CCB /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemListView.swift; path = ../ItemListView.swift; sourceTree = "<group>"; };
+		3864B97B29D5720200577CCB /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectSomethingView.swift; path = ../SelectSomethingView.swift; sourceTree = "<group>"; };
+		3864B97C29D5720200577CCB /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectHeaderView.swift; path = ../ProjectHeaderView.swift; sourceTree = "<group>"; };
+		3864B97D29D5720200577CCB /* ProjectsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectsVM.swift; path = Shared/ProjectsVM.swift; sourceTree = SOURCE_ROOT; };
+		3864B97E29D5720200577CCB /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRowView.swift; path = ../ItemRowView.swift; sourceTree = "<group>"; };
+		3864B97F29D5720200577CCB /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectsView.swift; path = Shared/ProjectsView.swift; sourceTree = SOURCE_ROOT; };
+		3864B98129D5720200577CCB /* EditProjectView+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditProjectView+macOS.swift"; sourceTree = "<group>"; };
+		3864B98229D5720200577CCB /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		3864B98329D5720200577CCB /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		3864B98429D5720200577CCB /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		3864B98529D5720200577CCB /* ProjectsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsVM.swift; sourceTree = "<group>"; };
+		3864B98629D5720200577CCB /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		3864B98729D5720200577CCB /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		3864B98829D5720200577CCB /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		3864B98929D5720200577CCB /* EditProjectView+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditProjectView+iOS.swift"; sourceTree = "<group>"; };
+		3864B98A29D5720200577CCB /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		3864B98B29D5720200577CCB /* EditProjectView+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EditProjectView+iOS.swift"; path = "../EditProjectView+iOS.swift"; sourceTree = "<group>"; };
+		3864B98C29D5720200577CCB /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditProjectView.swift; path = ../EditProjectView.swift; sourceTree = "<group>"; };
+		3864B98E29D5720200577CCB /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditItemView.swift; path = ../EditItemView.swift; sourceTree = "<group>"; };
+		3864B9A429D572B700577CCB /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		3864B9A529D572B700577CCB /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
+		3864B9A629D572B700577CCB /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		3864B9A729D572B700577CCB /* Sequence+Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Sorting.swift"; sourceTree = "<group>"; };
+		3864B9B029D5743F00577CCB /* Item+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Extension.swift"; sourceTree = "<group>"; };
+		3864B9B129D5743F00577CCB /* Project+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+Extension.swift"; sourceTree = "<group>"; };
 		386DF5D827B865D3006F9248 /* Tuning+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuning+extension.swift"; sourceTree = "<group>"; };
 		386DF5DF27B88608006F9248 /* Unit Tests Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386DF5E127B88608006F9248 /* GuitarClosetTests_Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarClosetTests_Mac.swift; sourceTree = "<group>"; };
@@ -192,6 +244,8 @@
 				38756C9829860E3800464419 /* Maker+Extension.swift */,
 				38EB870827B84F0E00323024 /* Setup+Extension.swift */,
 				386DF5D827B865D3006F9248 /* Tuning+extension.swift */,
+				3864B9B029D5743F00577CCB /* Item+Extension.swift */,
+				3864B9B129D5743F00577CCB /* Project+Extension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,6 +302,7 @@
 		3856E5AA27B1C426005E81ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3864B98029D5720200577CCB /* Projects */,
 				384CCFFC27B735F2004BEAA9 /* Views */,
 				385D10D027C20499009DA36F /* Setups */,
 				384CCFF927B7339E004BEAA9 /* Models */,
@@ -306,6 +361,32 @@
 			path = Setups;
 			sourceTree = "<group>";
 		};
+		3864B98029D5720200577CCB /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				3864B98E29D5720200577CCB /* EditItemView.swift */,
+				3864B98C29D5720200577CCB /* EditProjectView.swift */,
+				3864B98B29D5720200577CCB /* EditProjectView+iOS.swift */,
+				3864B97A29D5720200577CCB /* ItemListView.swift */,
+				3864B97E29D5720200577CCB /* ItemRowView.swift */,
+				3864B97C29D5720200577CCB /* ProjectHeaderView.swift */,
+				3864B97F29D5720200577CCB /* ProjectsView.swift */,
+				3864B97D29D5720200577CCB /* ProjectsVM.swift */,
+				3864B97B29D5720200577CCB /* SelectSomethingView.swift */,
+				3864B98129D5720200577CCB /* EditProjectView+macOS.swift */,
+				3864B98229D5720200577CCB /* EditItemView.swift */,
+				3864B98329D5720200577CCB /* ProjectHeaderView.swift */,
+				3864B98429D5720200577CCB /* ItemRowView.swift */,
+				3864B98529D5720200577CCB /* ProjectsVM.swift */,
+				3864B98629D5720200577CCB /* SelectSomethingView.swift */,
+				3864B98729D5720200577CCB /* EditProjectView.swift */,
+				3864B98829D5720200577CCB /* ProjectsView.swift */,
+				3864B98929D5720200577CCB /* EditProjectView+iOS.swift */,
+				3864B98A29D5720200577CCB /* ItemListView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
 		386DF5E027B88608006F9248 /* Tests Unit macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,7 +436,10 @@
 		38EB86FC27B7809300323024 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				384CD00E27B75353004BEAA9 /* Sequence+Extension.swift */,
+				3864B9A529D572B700577CCB /* Binding+Extension.swift */,
+				3864B9A629D572B700577CCB /* Bundle-Decodable.swift */,
+				3864B9A429D572B700577CCB /* Optional+Extension.swift */,
+				3864B9A729D572B700577CCB /* Sequence+Sorting.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -585,23 +669,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3864B99729D5720200577CCB /* ItemRowView.swift in Sources */,
+				3864B9AA29D572B700577CCB /* Optional+Extension.swift in Sources */,
 				38756C9929860E3800464419 /* Maker+Extension.swift in Sources */,
 				38756CA0298640EB00464419 /* PedalsVM.swift in Sources */,
+				3864B9A129D5720200577CCB /* SelectSomethingView.swift in Sources */,
+				3864B9A829D572B700577CCB /* Sequence+Sorting.swift in Sources */,
 				38EB870027B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D627B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
 				3856E5DC27B1C427005E81ED /* Persistence.swift in Sources */,
 				384CD00427B73743004BEAA9 /* ContentView.swift in Sources */,
 				38756C9D298640B000464419 /* PedalsView.swift in Sources */,
 				38EB870627B7A75C00323024 /* HomeViewVM.swift in Sources */,
+				3864B99329D5720200577CCB /* EditProjectView.swift in Sources */,
+				3864B99D29D5720200577CCB /* ProjectsVM.swift in Sources */,
 				386DF5D927B865D3006F9248 /* Tuning+extension.swift in Sources */,
+				3864B9B229D5743F00577CCB /* Item+Extension.swift in Sources */,
 				384CCFFF27B7360D004BEAA9 /* GuitarsView.swift in Sources */,
-				384CD00F27B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
+				3864B9AC29D572B700577CCB /* Bundle-Decodable.swift in Sources */,
 				38756C962984B7C200464419 /* PedalGridView.swift in Sources */,
 				3856E5D827B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
 				38702DE2299F5D9600E069F2 /* MakersView.swift in Sources */,
+				3864B99529D5720200577CCB /* ProjectsView.swift in Sources */,
 				38702DE4299F5DBB00E069F2 /* MakersVM.swift in Sources */,
+				3864B99B29D5720200577CCB /* EditProjectView+iOS.swift in Sources */,
+				3864B9B429D5743F00577CCB /* Project+Extension.swift in Sources */,
+				3864B98F29D5720200577CCB /* ProjectHeaderView.swift in Sources */,
 				38D095A7298746AA00BE2A79 /* Maker+Preview.swift in Sources */,
+				3864B99129D5720200577CCB /* EditItemView.swift in Sources */,
 				38EB870327B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
+				3864B99929D5720200577CCB /* ItemListView.swift in Sources */,
+				3864B9AE29D572B700577CCB /* Binding+Extension.swift in Sources */,
 				38EB870927B84F0E00323024 /* Setup+Extension.swift in Sources */,
 				384CCFFB27B733B5004BEAA9 /* Guitar.swift in Sources */,
 				38D095AA29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */,
@@ -614,24 +712,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				38756C9A29860E3800464419 /* Maker+Extension.swift in Sources */,
+				3864B9AD29D572B700577CCB /* Bundle-Decodable.swift in Sources */,
 				38756CA1298640EB00464419 /* PedalsVM.swift in Sources */,
 				38EB870127B78E1700323024 /* GuitarsVM.swift in Sources */,
 				3856E5D727B1C427005E81ED /* GuitarCloset.xcdatamodeld in Sources */,
+				3864B9B529D5743F00577CCB /* Project+Extension.swift in Sources */,
+				3864B9B329D5743F00577CCB /* Item+Extension.swift in Sources */,
 				384CD00527B73743004BEAA9 /* ContentView.swift in Sources */,
 				3856E5DD27B1C427005E81ED /* Persistence.swift in Sources */,
 				38756C9E298640B000464419 /* PedalsView.swift in Sources */,
+				3864B9AB29D572B700577CCB /* Optional+Extension.swift in Sources */,
 				38EB870727B7A75C00323024 /* HomeViewVM.swift in Sources */,
+				3864B9A329D5724C00577CCB /* EditProjectView+macOS.swift in Sources */,
+				3864B99629D5720200577CCB /* ProjectsView.swift in Sources */,
+				3864B9A929D572B700577CCB /* Sequence+Sorting.swift in Sources */,
 				386DF5DA27B865D3006F9248 /* Tuning+extension.swift in Sources */,
 				384CD00627B73751004BEAA9 /* Guitar.swift in Sources */,
-				384CD01027B75353004BEAA9 /* Sequence+Extension.swift in Sources */,
+				3864B99429D5720200577CCB /* EditProjectView.swift in Sources */,
 				38756C972984B7C200464419 /* PedalGridView.swift in Sources */,
+				3864B99829D5720200577CCB /* ItemRowView.swift in Sources */,
+				3864B9A229D5720200577CCB /* SelectSomethingView.swift in Sources */,
+				3864B99E29D5720200577CCB /* ProjectsVM.swift in Sources */,
+				3864B9AF29D572B700577CCB /* Binding+Extension.swift in Sources */,
+				3864B99A29D5720200577CCB /* ItemListView.swift in Sources */,
 				3856E5D927B1C427005E81ED /* GuitarClosetApp.swift in Sources */,
 				38D095A8298746AA00BE2A79 /* Maker+Preview.swift in Sources */,
 				38EB870427B7A4DE00323024 /* GuitarHeaderView.swift in Sources */,
 				38EB870A27B84F0E00323024 /* Setup+Extension.swift in Sources */,
 				38EB86F827B7806400323024 /* GuitarsView.swift in Sources */,
+				3864B99029D5720200577CCB /* ProjectHeaderView.swift in Sources */,
 				38D095AB29875FBC00BE2A79 /* Guitar+Preview.swift in Sources */,
 				3856E5DB27B1C427005E81ED /* HomeView.swift in Sources */,
+				3864B99229D5720200577CCB /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
